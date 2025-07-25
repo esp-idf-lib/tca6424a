@@ -25,5 +25,5 @@ menu "Example configuration"
         help
             GPIO number connected to INT pin.
 
-    rsource "../../../../devtools/Kconfig.i2c"
+    rsource "../../../Kconfig.i2c"
 endmenu
