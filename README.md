@@ -11,7 +11,7 @@ Driver for TCA6424A low-voltage 24-bit I2C I/O expander.
 ## Installation
 
 ```sh
-idf.py add-dependency "esp-idf-lib/tca6424a^1.0.0
+idf.py add-dependency esp-idf-lib/tca6424a^1.0.0
 ```
 
 ## Support
