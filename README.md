@@ -1,5 +1,9 @@
 # esp-idf-lib/tca6424a
 
+[![Build examples](https://github.com/esp-idf-lib/tca6424a/actions/workflows//build.yml/badge.svg)](https://github.com/esp-idf-lib/tca6424a/actions/workflows//build.yml)
+[![Build docs](https://github.com/esp-idf-lib/tca6424a/actions/workflows//build-docs.yml/badge.svg)](https://github.com/esp-idf-lib/tca6424a/actions/workflows//build-docs.yml)
+[![Validation](https://github.com/esp-idf-lib/tca6424a/actions/workflows//validate-component.yml/badge.svg)](https://github.com/esp-idf-lib/tca6424a/actions/workflows//validate-component.yml)
+
 Driver for TCA6424A low-voltage 24-bit I2C I/O expander.
 
 * [Documentation](https://esp-idf-lib.github.io/tca6424a/)
@@ -11,7 +15,7 @@ Driver for TCA6424A low-voltage 24-bit I2C I/O expander.
 ## Installation
 
 ```sh
-idf.py add-dependency esp-idf-lib/tca6424a^1.0.0
+idf.py add-dependency esp-idf-lib/tca6424a
 ```
 
 ## Support
