@@ -1,5 +1,5 @@
 ---
-version: 1.0.3
+version: 1.0.4
 description: Driver for TCA6424A low-voltage 24-bit I2C I/O expander
 license: BSD-3
 targets:
