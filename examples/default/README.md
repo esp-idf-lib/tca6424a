@@ -7,7 +7,9 @@
 
 ## Wiring
 
-Connect an LED with an appropriate register to P10.
+Connect an LED with an appropriate current-limiting resistor to pin P10 of the TCA6424A.
+Connect buttons between pins P01, P02, and P03 of the TCA9564A and ground.
+Connect the INT pin of the TCA9564A to a selected GPIO of the ESP32.
 
-Connect a switch that toggle its voltage HIGH or LOW to INT GPIO. The INT GPIO
-can be set in `menuconfig`. See the defaults in `Kconfig.projbuild`.
+The GPIO for connecting INT can be chosen in `menuconfig`. 
+See the default settings in `Kconfig.projbuild`.
